@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    font-family: serif;
+
+}
+
+/* header */
+.header {
+    background-color: aqua;
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+
+
+nav {
+    display: flex;
+    padding: 0px 100px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 250px;
+}
+
+/* banner styles */
+.banner-container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner/banner3.png),
+        linear-gradient(rgba(233, 47, 47, 0.4), rgba(95, 233, 130, 0) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.btn-primary {
+    padding: 20px 25px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.text-primary {
+    color: blue;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* failur styles */
+.failur-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+
+}
+
+.failur-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.failour-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: #444343;
+
+}
+
+.failur-sub-part {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.popular {
+    margin-bottom: 15px;
+}
+
+/* plan styles */
+.section {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+
+}
+
+.plan {
+    background: #f5f1f1;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+.keep-container {
+    display: flex;
+    background-repeat: no-repeat;
+     height: 100vh; 
+    align-items: center;
+    background-position: center;
+    justify-content: left;
+    background-image: url(../images/watch.png),
+    linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: overlay;
+    background-size: cover;
+    text-align:left;
+    padding-left:100px;
+
+
+}
+
+.keep-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+/* footer styles */
+.footer {
+    display: flex;
+    gap: 60px;
+    background: #151414;
+    padding: 20px 200px;
+}
+
+.footer-titles {
+    text-align: left;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+}
+
+.future-des {
+    color: #eddede;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.address {
+    color: #eddede;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.footer a {
+    text-decoration: none;
+    padding: 0 15px;
+
+}
+
+.suscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #F8F8F8;
+    margin-bottom: 30px;
+}
+
+.name {
+    width: 100%;
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
+    height: 24px;
+}
